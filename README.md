@@ -19,11 +19,13 @@
 
 ## Install
 
-Via Composer
+Add to composer.json in require section:
 
-``` bash
-$ composer require angrydeer/attachfiles
+``` php
+"angrydeer/attachfiles": "dev-master"
 ```
+
+Make composer update
 
 after that add to config/app.php:
 
